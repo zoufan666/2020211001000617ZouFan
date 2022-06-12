@@ -23,7 +23,7 @@
 						&nbsp;<input type="radio"  style="width: 15px; height: 15px; display:inline;" name="gender" value="male" <%="male".equals(u.getGender())? "checked":""%> />&nbsp;Male&nbsp;
 						<input type="radio" style="width: 15px; height: 15px;   display: inline;" name="gender" value="female" <%="female".equals(u.getGender())? "checked":""%>/>&nbsp;Female
 						<br/><br/>
-						<label>Date of Birth : </label><input type="text" name="birthdate" placeholder="Date of Birth (yyyy-mm-dd)" value="<%=u.getBirthDate()%>" />
+						<label>Date of Birth : </label><input type="text" name="birthdate" placeholder="Date of Birth (yyyy-mm-dd)" value="<%=u.getBirthdate()%>" />
 						<input type="hidden" name="id" value="<%=u.getId()%>">
 						<button type="submit" class="btn btn-default">Save Changes</button>
 						<%}%>
